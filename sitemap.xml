@@ -1,13 +1,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url><loc>http://canarian.io
+  <url><loc>http://canarian.github.io
     </loc></url>
   
-  <url><loc>http://canarian.io/categories
+  <url><loc>http://canarian.github.io/categories
     </loc></url>
   
-  <url><loc>http://canarian.io/tags
+  <url><loc>http://canarian.github.io/tags
     </loc></url>
   
 </urlset>
