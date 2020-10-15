@@ -57,7 +57,48 @@
 
 
 
+<style>
+      
+     a:hover {
+         color: #b6b84c;
+     }
 
+      
+     a.btn {
+         color: white;
+          background-color: #ced067;
+     }
+     a.btn:hover {
+          background-color: #b6b84c;
+     }
+
+      
+     a.fn-item.active {
+          color: #b6b84c;
+     }
+     a.fn-item:hover {
+          color: #ced067;
+     }
+
+      
+     .post-holder.odd {
+          background: #e1cb52;
+          color: white;
+     }
+     .post-holder {
+          background: #8ebdd0;
+          color:white;
+     }
+     body {
+          color: #3A4145;
+     }
+
+      
+     .site-footer {
+          color: #BBC7CC;
+          background-color: #22343A;
+     }
+</style>
 
 
 
@@ -95,6 +136,8 @@
             <h2 class="blog-description">Redefining Cloud Native Software Delivery</h2>
 
             
+                 <a class='btn site-menu' data-title-anchor='sign-up-for-our-beta'>Sign Up for Our Beta</a>
+            
                  <a class='btn site-menu' data-title-anchor='contact'>Contact</a>
             
             <i id='header-arrow' class="fa fa-angle-down"></i>
@@ -107,7 +150,43 @@
     </div>
     
         <div class='post-holder'>
-            <article id='contact' class='post first'>
+            <article id='sign-up-for-our-beta' class='post first'>
+                <header class="post-header">
+                    <h2 class="post-title">Sign Up for Our Beta</h2>
+                </header>
+                <section class="post-content">
+                    <p>We&rsquo;ll be happy to keep you continuously updated ;)</p>
+<form
+  action="https://formspree.io/f/xqkgpglo"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <br>
+  <br>
+  <label>
+    Your name:
+    <input type="text" name="name">
+  </label>
+  <!-- your other form fields go here -->
+<p><button type="submit">Send</button></p>
+</form>
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  <script>
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    formbutton("create", {action: "https://formspree.io/f/xqkgpglo"})
+  </script><blockquote>
+</blockquote>
+
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    
+        <div class='post-holder'>
+            <article id='contact' class='post last'>
                 <header class="post-header">
                     <h2 class="post-title">Contact</h2>
                 </header>
